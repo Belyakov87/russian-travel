@@ -18,6 +18,6 @@ GitHub - веб-сервис для хостинга IT-проектов и их
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-* [оптимизировать картинки] (https://tinypng.com/),
-* https://github.com/Belyakov87/russian-travel
+* [оптимизировать картинки](https://tinypng.com/),
+* [проект](https://github.com/Belyakov87/russian-travel)
 
