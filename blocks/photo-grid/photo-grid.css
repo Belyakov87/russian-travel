@@ -32,7 +32,7 @@
     padding-right: 48px;
     padding-left: 48px;
 
-    grid-template-columns: 1fr 1fr 1fr; /*сетка в две колонки*/
+    grid-template-columns: repeat(3, 1fr); /*сетка в две колонки*/
     gap: 14px 14px; /*зазор между строками и столбцами в сетке*/
   }
 }
@@ -40,7 +40,7 @@
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1280px до бесконечности*/
 @media (min-width: 1280px) {
   .photo-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr; /*сетка в две колонки*/
+    grid-template-columns: repeat(4, 1fr); /*сетка в две колонки*/
     gap: 16px 16px; /*зазор между строками и столбцами в сетке*/
   }
 }
