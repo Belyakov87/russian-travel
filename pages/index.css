@@ -26,7 +26,7 @@
 
 @import url(../blocks/header/__lang-menu-item/header__lang-menu-item.css); /*Элемент списка меню*/
 
-@import url(../blocks/header/__lang-link/_text-underline/header__lang-link_text-underline.css); /*Модификатор - добавить нижнее подчеркивание для текста*/
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css); /*Модификатор - добавить нижнее подчеркивание для текста*/
 
 
 @import url(../blocks/content/content.css); /*Блок main - контейнер основного контента*/
