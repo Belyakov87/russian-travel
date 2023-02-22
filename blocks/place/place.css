@@ -33,7 +33,7 @@
   .place {
     margin-top: 73px;
     grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 340px 1fr;
     gap: 48px 28px; /*зазор: строка столбец*/
     grid-template-areas:
     "title website"
