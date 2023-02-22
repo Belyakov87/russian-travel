@@ -12,7 +12,7 @@
 /*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
 @media (min-width: 768px) {
   .place__website {
-    margin-top: 0;
+    margin-top: 73px;
     margin-right: 0;
     margin-left: 0;
   }
