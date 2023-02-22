@@ -14,7 +14,7 @@
   align-content: start;
 
   grid-template-rows: auto 46px 1fr auto;
-  grid-template-columns: 460px 1f;
+  grid-template-columns: 1f;
   grid-auto-flow: dense; /*использовать пространство контейнера максимально компактно*/
   gap: 32px 0; /*зазор между строками в сетке*/
   grid-template-areas:
