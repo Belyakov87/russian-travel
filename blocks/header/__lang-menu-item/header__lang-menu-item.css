@@ -8,8 +8,7 @@
   margin-right: 0;
 }
 
-/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
-@media (min-width: 768px) {
+
   .header__lang-menu-item {
     max-width: 30px;
   }
