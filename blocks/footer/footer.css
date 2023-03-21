@@ -1,23 +1,18 @@
 .footer {
   margin: 64px auto 0 16px;
   padding: 0;
-
-  background: #2A2C2F; /*цвет фона - темный*/
-
+  background: #2A2C2F; 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-
   font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
-
-  /*Сглаживание шрифтов*/
-  -webkit-font-smoothing: antialiased; /*сглаживание шрифтов в Safari и во всех браузерах на платформе Chromium*/
-  -moz-osx-font-smoothing: grayscale; /*сглаживание шрифтов в Mozilla Firefox*/
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
 }
 
-/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
+
 @media (min-width: 768px) {
   .footer {
     margin-top: 88px;
@@ -25,13 +20,12 @@
     margin-bottom: 0;
     margin-left: 24px;
     padding-bottom: 24px;
-
     flex-direction: row;
     justify-content: space-between;
   }
 }
 
-/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 1024px до 1279px*/
+
 @media (min-width: 1024px) {
   .footer {
     margin-top: 92px;
