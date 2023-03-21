@@ -1,16 +1,13 @@
 .footer__menu-list {
   margin: 0;
   padding: 0;
-
-  list-style: none; /*убрать маркеры*/
-
+  list-style: none; 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
 @media (min-width: 768px) {
   .footer__menu-list  {
     flex-direction: row;
