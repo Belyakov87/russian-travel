@@ -1,11 +1,8 @@
 .lead__title {
   margin: 0 auto 0 auto;
   padding: 0;
-
   max-width: 288px;
-  color: inherit; /*цвет шрифта взять у родителя (указан белый цвет текста для блока header)*/
-
-  /*Настройки отображения текста*/
+  color: inherit; 
   font-size: 40px;
   font-style: normal;
   font-weight: 900;
@@ -14,11 +11,10 @@
   text-align: center;
 }
 
-/*Медиазапрос - задать новые свойства блока для экранов с разрешением от 768px до 1023px*/
+
 @media (min-width: 768px) {
   .lead__title {
     max-width: 720px;
-
     font-size: 96px;
     line-height: 100px;
   }
