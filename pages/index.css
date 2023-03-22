@@ -1,10 +1,9 @@
 @import url(../vendor/normalize.css);
-/*Подключил к index.css файл normalize.css, удалил link для normalize.css в index.html*/
+
 
 
 @import url(../blocks/root/root.css);
-/*Подключил к index.css файл root.css для редактирования css параметров body*/
-/*Код красной границы вокруг блоков находится в root.css*/
+
 
 @import url(../vendor/fonts/font.css); 
 
@@ -29,7 +28,7 @@
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css); 
 
 
-@import url(../blocks/content/content.css); /*Блок main - контейнер основного контента*/
+@import url(../blocks/content/content.css); 
 
 
 /*_________________________________________________________________________________________________
